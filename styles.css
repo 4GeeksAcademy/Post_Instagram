@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+    background-color: black;
+    font-family: 'Roboto',sans-serif;
+}
+
+.post {
+    background-color: white;
+    width: 400px;
+    margin: 30px auto;
+}
+.post-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+.user{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.post-img img{
+    width: 100%;
+}
+.post-body{
+    padding: 5px 10px;
+}
+.post-icons{
+    display: flex;
+    justify-content: space-between;
+}
